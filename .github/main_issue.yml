@@ -1,0 +1,10 @@
+name: main-issue
+description: 親チケット
+title: "〇〇"
+labels: ["main"]
+body:
+  - type: textarea
+    id: overview
+    attributes:
+      label: 概要
+      description: 目的や背景など

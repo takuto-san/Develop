@@ -1,0 +1,21 @@
+name: sub-issue
+description: 子チケット
+title: "⭐︎"
+labels: ["sub"]
+body:
+  - type: input
+    id: parent
+    attributes:
+      label: 関連リンク
+      placeholder: https://example.com
+  - type: input
+    id: period
+    attributes:
+      label: 期間
+      placeholder: 2025-05-05 ~ 2025-05-10
+  - type: textarea
+    id: todo
+    attributes:
+      label: 作業内容 / チェックリスト
+      value: |
+        - 
